@@ -1,0 +1,73 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cft="http://cft.transcapital.ru/CftTenderIntegrator/">
+    <soapenv:Header/>
+   <soapenv:Body>
+        <cft:SetGuaranteeRequest>
+     <pkgId>949245</pkgId>
+         <!--Zero or more repetitions:-->
+         <guarantee>
+        <VersionForm xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <!--Optional:-->
+            <Offer>
+            <StartBgFact>2021-09-03</StartBgFact>
+               <DurationBgFact>2021-11-30</DurationBgFact>
+               <ValidTo>2022-11-30</ValidTo> <!--new value-->
+               <Sum>84438.49</Sum>
+               <Percent>1000.0</Percent>
+               <!--Optional:-->
+               <Currency>810</Currency>
+               <!--Optional:-->
+               <Files>
+                <!--Zero or more repetitions:-->
+                  <File>
+                    <Name>949245_711871431842_tkb.xlsx</Name>
+                     <Type>NotSet</Type>
+                  </File>
+               </Files>
+            </Offer>
+            <!--Optional:-->
+            <CustomerRequest>
+            <Id>0</Id>
+               <AuctionStage>ProvideExecutionContract</AuctionStage>
+               <!--Optional:-->
+               <!--Optional:-->
+               <Applicant>
+                <!--Optional:-->
+                  <Inn>711871431842</Inn>
+               </Applicant>
+               <!--Optional:-->
+               <Notification>
+                <!--Optional:-->
+                  <Name>Оказание услуг по очистке и дезинфекции систем вентиляции и кондиционирования</Name>
+                  <!--Optional:-->
+                  <Number>0348100026521000111</Number>
+                  <Enactment>FZ44</Enactment>
+                  <!--Optional:-->
+                  <Customer>
+                    <Type>Juridical</Type>
+                     <!--Optional:-->
+                     <Inn>5009067866</Inn>
+                     <!--Optional:-->
+                     <FullName>ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ "МНОГОФУНКЦИОНАЛЬНЫЙ КОМПЛЕКС МИНИСТЕРСТВА ФИНАНСОВ РОССИЙСКОЙ ФЕДЕРАЦИИ"</FullName>
+                     <!--Optional:-->
+                     <PhoneNumber>8888888888</PhoneNumber>
+                     <!--Optional:-->
+                     <Address>142003,Московская область,город Домодедово,улица Каширское Шоссе (Западный Мкр.),дом 112</Address>
+                     <!--Optional:-->
+                     <Kpp>500901001</Kpp>
+                     <!--Optional:-->
+                     <Ogrn>1085009006642</Ogrn>
+                     <!--Optional:-->
+                     <Okpo>02250416</Okpo>
+                     <!--Optional:-->
+                     <Okato>46409000000</Okato>
+                     <!--Optional:-->
+                     <Oktmo>46709000001</Oktmo>
+                  </Customer>
+               </Notification>
+            </CustomerRequest>
+            <!--Optional:-->
+            <subPkgId>949245</subPkgId>
+         </guarantee>
+      </cft:SetGuaranteeRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
